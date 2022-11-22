@@ -1,0 +1,109 @@
+h3{
+    font-size: 40px;
+        text-align: right;
+        color: rgb(241, 137, 0);
+}
+.nav{
+    list-style-type: none ;
+    color: blueviolet;
+    background-color: burlywood;
+
+}
+.nav li{
+    display: inline-block ;
+    padding: 20px;
+    font-size: 20px;
+    
+}
+.bgcolor{
+    background-color: brown;
+}
+#bgurl{
+    text-align: center;
+    background-repeat: no-repeat;
+    opacity:0.6;
+}
+#bgurl:hover{
+    opacity:1;
+}
+img{
+    width: 300px;
+    height: 300px;
+    border-radius:50% ;
+    object-fit: contain;
+
+}
+#hover{
+    width:100px;
+    height: 200px;
+    background-color: brown;
+    transition: width 2s;
+    float: left;
+}
+#hover:hover{
+    width:500px ;
+    background-color: rgb(0, 116, 48);
+
+}
+.dorpdown{
+    position: relative;
+    display: inline-block;
+}
+.dorpdown-contect{
+    display: none;
+    position: absolute;
+    background-color: aliceblue;
+    z-index: 1;
+}
+.dorpdown:hover .dorpdown-contect{
+    display: block;
+}
+#text{
+    background-color: rgb(255, 255, 255);
+    border: 10px solid black;
+    padding: 20px;
+    margin: 20px;
+    text-align: justify;
+    text-indent: 20%;
+
+}
+.gto{
+
+    list-style-type: none ;
+    color: blueviolet;
+    
+
+}
+.gto li{
+    display: inline-block ;
+    padding: 15px;
+    font-size: 18px;
+    
+}
+.bgcolor{
+    background-color: brown;
+}
+#g{
+    background-color: rgb(255, 255, 255);
+    border: 10px solid black;
+    padding: 5px;
+    margin: 8px;
+    text-align:left;
+    
+}
+#t{
+    background-color: rgb(255, 255, 255);
+    border: 10px solid black;
+    padding: 5px;
+    margin: 8px;
+    text-align:left;
+    
+}
+#o{
+    background-color: rgb(255, 255, 255);
+    border: 10px solid black;
+    padding: 5px;
+    margin: 8px;
+    text-align:left;
+    
+}
